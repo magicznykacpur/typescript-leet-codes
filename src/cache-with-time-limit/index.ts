@@ -1,4 +1,4 @@
-class TimeLimitedCache {
+export class TimeLimitedCache {
   cache: {
     [key: number]: { value: number; duration: number; ref: NodeJS.Timeout };
   };
